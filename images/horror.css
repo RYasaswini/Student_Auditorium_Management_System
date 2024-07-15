@@ -1,0 +1,106 @@
+.body {
+	background-image: url("/home/student/Desktop/se_ project/kkkkk.jpg");
+	background-size: cover;
+	padding: 1px;
+}
+.contain{
+	height: 104.5vh;
+	width: 1293px;
+	margin-top: 100px;
+	border-style: solid;
+}
+.container{
+	height: 574px;
+	width: 640px;
+	margin-left: 30px;
+	margin-top: 15px;
+	padding: 10px;
+}
+
+.containers{
+	height: 540px;
+	width: 550px;
+	border-style: solid;
+	padding: 15px;
+}
+
+.paragraph{
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+.heading{
+	color: blue;
+	font-style: italic;
+	font-family: Roboto;
+	font-size: 50px;
+	margin-left: 350px;
+	margin-top: 90px;
+	
+}
+.card-image{
+	margin-top: 23px;
+	height: 500px;
+	width: 300px;
+	margin-right: 5px;
+}
+
+.cont{
+	margin-top: 20px;
+	padding:0px;
+	text-align: left;
+}
+
+.button{
+	height: 60px;
+	width: 150px;
+	margin-left: 180px;
+	margin-top: 30px;
+	background-color: crimson;
+	border-radius: 8px;
+	font-size:17px;
+	display: inline-block;
+}
+.button-text{
+		font-size: 15.5px;
+		color: white;
+
+}
+
+.gbody{
+	background-image: url("pexels-madison-inouye-1831234.jpg");
+		background-size: cover;
+		padding: 1px;
+}
+
+.gparagraph{
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+.gtitle{
+	padding-left: 70px;
+	padding-top: 40px;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.mbody {
+		background-image: url("ef8bd20bc7fc477e6ab98ff2dcdfc761.jpg");
+		background-size: cover;
+		padding: 1px;
+}
+.button1{
+	height: 60px;
+	width: 150px;
+	margin-left: 15px;
+	margin-top: 30px;
+	background-color: crimson;
+	border-radius: 8px;
+	font-size:17px;
+	display: inline-block;
+}
+
+	
+

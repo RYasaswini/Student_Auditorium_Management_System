@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>SAMS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                margin:0;
+                padding:0;
+                font-family:sans-serif;
+                background-color:black;
+                background-image:url(images.jpeg);
+                background-size:cover;
+                background-position:center;
+            }
+            .signin-form{
+                width:600px;
+                box-shadow:0 0 3px 0 rgba(0,0,0,0,3);
+                background: white;
+                padding:10px;
+                margin:5% auto 0;
+                text-align:center;
+                opacity: 0.6;
+                color:black;
+            }
+            .signin-form h1{
+                color:black;
+                margin-bottom:30px;
+            }
+            button{
+                color:#fff;
+                width:100%;
+                padding:10px;
+                border-radius:20px;
+                font-size:15px;
+                margin:10px 0;
+                border:none;
+                outline:none;
+                cursor:pointer;
+            }
+            .sigin-btn{
+                background-color:navy;
+                text-color:white;
+            }
+            a{
+		text-decoration:none;
+            }
+            .heading{
+
+  color:white;
+}
+        </style>
+    </head>
+    <body>
+        
+        <center><h1 style="font-size:30px" class="heading"><b><i><marquee>To Visit Our Auditorium Please Register Here</marquee></i></b></h1></center>
+        <div class="signin-form">
+            <h1 style="font-size:40px" ><i>Register Here</i></h1>
+            <form action=" " method="post">
+                <label for="name">Name:</label>
+                <input type="text" class="input-box" id="name" placeholder="enter your name"><br><br>
+                <label for="pnum">Mobile No:</label>
+                <input type="tel" class="input-box" id="pnum" placeholder="enter your number"><br><br>
+                <label for="dob">Date Of Birth:</label>
+                <input type="date" class="input-box" id="dob"><br><br>
+                <label for="gen">Gender:</label>
+                <input type="radio" class="input-box" id="gen">Male
+                <input type="radio" class="input-box" id="gen">Female<br><br>
+                <label for="mail">Email:</label>
+                <input type="email" class="input-box" id="mail"><br><br>
+                <label for="pwd">Password:</label>
+                <input type="password" class="input-box" id="pwd"><br><br>
+                <button type="button" class="sigin-btn"><a href="home.html">Register</a></button>
+            </form>
+        </div>
+    </body>
+</html>
+

@@ -1,0 +1,29 @@
+.backgroundimage{
+	background-image: url("/home/apiiit-rkv/Videos/kkkkk.jpg");
+	background-size: cover;
+	padding: 1px;
+}
+
+
+.diwali-card-item {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 9px;
+    padding: 16px;
+    margin: 15px;
+    background-color: powderblue;
+}
+
+.diwali-card-image {
+    height: 120px;
+    width: 120px;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+
+.name{
+	margin-top: 150px;
+}
+
+

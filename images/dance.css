@@ -1,0 +1,25 @@
+#container-fluid{
+    background-color: rgb(218, 148, 44);
+    border: 10px solid rgb(193, 215, 186);
+}
+#header{
+    border: 10px solid rgb(208, 184, 214);
+}
+#text{
+    background-color: rgb(168, 215, 215);
+    font-family: 'Brush Script MT', cursive; 
+     /*font-family: 'Times New Roman', serif;*/
+     }
+.resize_fit_center {
+    max-width:300%;
+    max-height:100%;
+
+}
+#content{
+
+	font-family: 'Brush Script MT', cursive;
+}
+.resize_fit_center {
+    max-width:300%;
+    max-height:100%;
+}

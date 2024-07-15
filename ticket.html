@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+  /* Center and scale the image nicely */
+  .bg-img{
+    background: url(1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0%;
+    position: fixed;
+
+
+}
+.btn {
+  background-color:  #ff3300;
+  border: none;
+  color: white;
+  padding: 18px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  width: 200px;
+  }
+.btn-text{  
+  font-size: 20px;
+}
+
+.btn:hover {opacity: 0.6}
+
+ /* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 300px;
+  max-width: 800px;
+  padding: 16px;
+  opacity: 0.6;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-30 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.col-80 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75,.col-30, .col-80, button [type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+} 
+</style>
+</head>
+<body>
+<div class="bg-img">
+  <h3 style="text-align:center;color:whitesmoke;font-size: 50px;">...Book your ticket Now...</h3>
+  <form action="/action_page.php" class="container">
+    <center><h1>Booking Here</h1></center>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="fname"><b>First Name :</b></label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname"><b>Contact Num :</b></label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="Contact" placeholder="Your contact">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="type seat"><b>Type Of Seat :</b></label>
+      </div>
+      <div class="col-75">
+        <select id="typeseat" name="seat type">
+          <option value=""></option>
+          <option value="ordinary">Ordinary</option>
+          <option value="balcony">Balcony</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lnam"e><b>No. of Seats:</b></label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="seatnum" name="seatnum" placeholder="Your seat Num">
+      </div>
+    </div>
+      <div class="row">
+       <div class="col-30">
+         <label for="type seat"><b>Select Your Show :</b></label>
+      </div>
+      <div class="col-80">
+        <select id="show" name="Show name">
+          <option value=""></option>
+          <option value="Dance">Dance</option>
+          <option value="Comedy">Comedy</option>
+          <option value="Magic">Magic</option>
+          <option value="Horror">Horror</option>
+          <option value="Gymnastics">Gymnastics</option>
+          <option value="Motivational">Motivational</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+       
+      <center><button class="btn"><b>Book</b></button></center>
+
+    </div>
+  </form>
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,67 @@
+.backgroundimage{
+	background-image: url("kkkkk.jpg");
+	background-size: cover;
+	padding:1px;
+}
+
+.heading{
+	color: blue;
+	font-style: italic;
+	font-family: Roboto;
+	font-size: 50px;
+	margin-top: 150px;
+	text-align: center;
+	
+}
+
+.card{
+	height: 450px;
+	width: 350px;
+	padding: 10px;
+	margin: 50px;
+	background-color: paleblue;
+}
+
+.diwali-card-item {
+    text-align: center;
+    background-color: white;
+    width: 350px;
+    height: 450px;
+    border-radius: 9px;
+    padding: 16px;
+    margin: 15px;
+    background-color: #ffb3d9;
+}
+
+.diwali-card-image {
+    height: 200px;
+    width: 300px;
+    margin-top: 2px;
+}
+
+.small-card{
+	height: 110px;
+	width: 315px;
+	background-color: white;
+	margin-top: 10px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.button{
+	height: 50px;
+	width: 100px;
+	border-radius: 8px;
+	margin-top: 12px;
+	background-color: crimson;
+	font-size: 17px;
+}
+
+.paragraph{
+	margin: 30px;
+	font-size: 18px;
+}
+
+.diwali-card-price{
+	font-size: 15px;
+}
